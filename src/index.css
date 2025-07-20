@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.paper{
+    width: 570px;
+    margin: 70px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+.repeat-every{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    margin-top: 20px;
+}
+.daySelection{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dateRange{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.preview{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media screen and (max-width:600px) {
+    .paper{
+        width: 400px;
+    }
+    .repeat-every{
+    gap: 25px;
+    align-items: center;
+    }
+    .interval{
+        width: 150px;
+    }
+}
